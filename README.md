@@ -1,4 +1,8 @@
-# MassTransite Pub Sub
+# MassTransit Pub Sub
+
+Sample code for article
+
+[Integrating MassTransit using AWS SNS/SQS into your ASP.NET project](https://www.dateo-software.de/blog/integrating-masstransit)
 
 Run docker
 
@@ -15,7 +19,7 @@ docker ps --format "table {{.Names}}\t{{.ID}}\t{{.Command}}\t{{.Status}}\t{{.Por
 
 Outputs
 
-```sh 
+```sh
 NAMES             CONTAINER ID   COMMAND                  STATUS                        PORTS
 localstack_main   7432568adbe7   "docker-entrypoint.sh"   Up About a minute (healthy)   127.0.0.1:4510-4559->4510-4559/tcp, 127.0.0.1:4566->4566/tcp, 5678/tcp
 ```
