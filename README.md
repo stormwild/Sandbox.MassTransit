@@ -13,6 +13,13 @@ Verify services are running
 docker ps --format "table {{.Names}}\t{{.ID}}\t{{.Command}}\t{{.Status}}\t{{.Ports}}"
 ```
 
+Outputs
+
+```sh 
+NAMES             CONTAINER ID   COMMAND                  STATUS                        PORTS
+localstack_main   7432568adbe7   "docker-entrypoint.sh"   Up About a minute (healthy)   127.0.0.1:4510-4559->4510-4559/tcp, 127.0.0.1:4566->4566/tcp, 5678/tcp
+```
+
 Run Producer
 
 ```sh
